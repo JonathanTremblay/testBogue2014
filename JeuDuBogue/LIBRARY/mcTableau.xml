@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="mcTableau" itemID="522f57b2-000001da" lastModified="1378836218">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="mcTableau" itemID="522f57b2-000001da" lastModified="1414715762">
   <timeline>
     <DOMTimeline name="mcTableau">
       <layers>
@@ -14,10 +14,13 @@
                     <DOMTextRun>
                       <characters>Points:&#xD;Vies:</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="right" aliasText="false" size="20" bitmapSize="400" face="_sans" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs alignment="right" aliasText="false" size="20" face="_sans" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
+                  <filters>
+                    <DropShadowFilter blurX="4" blurY="4" distance="2"/>
+                  </filters>
                 </DOMStaticText>
                 <DOMDynamicText name="txtPoints" fontRenderingMode="standard" width="27" height="22.35" isSelectable="false">
                   <matrix>
@@ -31,8 +34,11 @@
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
+                  <filters>
+                    <DropShadowFilter blurX="4" blurY="4" distance="2"/>
+                  </filters>
                 </DOMDynamicText>
-                <DOMDynamicText name="txtVies" selected="true" fontRenderingMode="standard" width="27" height="22.35" isSelectable="false">
+                <DOMDynamicText name="txtVies" fontRenderingMode="standard" width="27" height="22.35" isSelectable="false">
                   <matrix>
                     <Matrix tx="74" ty="31.25"/>
                   </matrix>
@@ -44,6 +50,9 @@
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
+                  <filters>
+                    <DropShadowFilter blurX="4" blurY="4" distance="2"/>
+                  </filters>
                 </DOMDynamicText>
               </elements>
             </DOMFrame>
